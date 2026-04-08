@@ -10,7 +10,6 @@
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -20,7 +19,6 @@
             align-items: center;
             padding: 20px;
         }
-
         .container {
             background: white;
             padding: 40px;
@@ -29,14 +27,12 @@
             max-width: 500px;
             width: 100%;
         }
-
         h1 {
             color: #333;
             margin-bottom: 30px;
             text-align: center;
             font-size: 28px;
         }
-
         .file-item {
             background: #f8f9fa;
             padding: 20px;
@@ -47,18 +43,15 @@
             align-items: center;
             transition: transform 0.2s;
         }
-
         .file-item:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
-
         .file-name {
             color: #555;
             font-size: 16px;
             font-weight: 500;
         }
-
         .download-btn {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
@@ -72,25 +65,20 @@
             text-decoration: none;
             display: inline-block;
         }
-
         .download-btn:hover {
             transform: scale(1.05);
             box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
         }
-
         .download-btn:active {
             transform: scale(0.98);
         }
-
         @media (max-width: 600px) {
             .container {
                 padding: 25px;
             }
-
             h1 {
                 font-size: 24px;
             }
-
             .file-item {
                 flex-direction: column;
                 gap: 15px;
@@ -102,16 +90,12 @@
 <body>
     <div class="container">
         <h1>📦 Download Files</h1>
-        
-        <div class="file-item">
-            <span class="file-name">Assignment 3.zip</span>
-            <a href="files/Assignment 3.zip" download class="download-btn">Download</a>
-        </div>
 
         <div class="file-item">
-            <span class="file-name">Assignment 4.zip</span>
-            <a href="files/Assignment4.zip" download class="download-btn">Download</a>
+            <span class="file-name">📄 Mid prep.fig</span>
+            <a href="https://raw.githubusercontent.com/dev-Arsl-an/ai-final/main/AI%20final/files/Mid%20prep.fig" download="Mid prep.fig" class="download-btn">⬇ Download</a>
         </div>
+
     </div>
 </body>
 </html>
